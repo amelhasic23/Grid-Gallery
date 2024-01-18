@@ -1,0 +1,47 @@
+body {
+
+	padding: 0;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 10px;
+    margin: 0 auto;
+    justify-items: center;
+}
+
+.paragraph {
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+figure {
+    background: #73a7ea;
+    width: 140px;
+    height: 114px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+figcaption {
+    font-size: 14px;
+    color: black;
+    background: #e2eff7;
+    text-align: center;
+    border-radius: 0px 0px 8px 8px;
+    padding-bottom: 3px;
+}
+
+img {
+    width: 140px;
+    height: 110px;
+}
